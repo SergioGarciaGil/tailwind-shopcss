@@ -1,148 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../public/css/tailwind.css" />
-    <title>Platzi Travel</title>
-  </head>
-  <body class="font-Montserrat">
-    <nav></nav>
-    <div id="tab_bar"></div>
-    <section class="w-full h-screen">
-      <div id="home">
-        <div class="w-full h-3/4">
-          <div
-            class="absolute flex flex-col items-center w-full h-full py-4 space-y-96 lg:space-y-0 lg:items-start lg:pt-20 lg:justify-start"
-          >
-            <input
-              type="search"
-              class="p-3 transition duration-300 rounded-full focus-within:shadow-sm focus:ring-2 focus:w-11/12 lg:hidden"
-              placeholder="San Francisco",
-              name=""
-              id=""
-            />
-            <div class="hidden pb-6 lg:w-2/5 lg:flex">
-              <p class="ml-16 text-4xl font-bold">Encuentra mas ubicaciones como estas</p>
-            </div>
-            <button class="p-3 text-xl font-semibold transition-all duration-500 ease-in-out -translate-y-1 bg-white rounded-full shadow-sm w-36 text-primary hover:bg-primary hover:text-white hover:scale-110 lg:ml-16" >Exporar</button>
-            
-                </div>
-                <div class="w-full h-full">
-            </button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../public/css/tailwind.css" />
+  <title>Platzi Travel</title>
+</head>
+
+<body class="font-Montserrat">
+  <nav></nav>
+  <div id="tab_bar"></div>
+  <section class="w-full h-screen">
+    <div id="home">
+      <div class="w-full h-3/4">
+        <div
+          class="absolute flex flex-col items-center w-full h-full py-4 space-y-96 lg:space-y-0 lg:items-start lg:pt-20 lg:justify-start">
+          <input type="search"
+            class="p-3 transition duration-300 rounded-full focus-within:shadow-sm focus:ring-2 focus:w-11/12 lg:hidden"
+            placeholder="San Francisco" , name="" id="" />
+          <div class="hidden pb-6 lg:w-2/5 lg:flex">
+            <p class="ml-16 text-4xl font-bold">Encuentra mas ubicaciones como estas</p>
           </div>
-          <div class="w-full h-full lg:h-96 lg: bg-sanFranciscoDesktop lg:bg-cover lg:bg-center">
-            <img class="lg:hidden" src="./img/sanFrancisco.jpg" alt="San Francisco City" />
-          </div>
+          <button
+            class="p-3 text-xl font-semibold transition-all duration-500 ease-in-out -translate-y-1 bg-white rounded-full shadow-sm w-36 text-primary hover:bg-primary hover:text-white hover:scale-110 lg:ml-16">Exporar</button>
+
+        </div>
+        <div class="w-full h-full">
+          </button>
+        </div>
+        <div class="w-full h-full lg:h-96 lg: bg-sanFranciscoDesktop lg:bg-cover lg:bg-center">
+          <img class="lg:hidden" src="./img/sanFrancisco.jpg" alt="San Francisco City" />
         </div>
       </div>
-      <div class="p-6" id="recomendados ">
-        <p class="text-3xl font-semibold text-primary">Recomendados</p>
-        <div class="flex items-center w-auto m-6 space-x-6 overflow-x-auto overflow-y-hidden h-72 overscroll-x-contain">
+    </div>
+    <div class="p-6" id="recomendados ">
+      <p class="text-3xl font-semibold text-primary">Recomendados</p>
+      <div class="flex items-center w-auto m-6 space-x-6 overflow-x-auto overflow-y-hidden h-72 overscroll-x-contain">
 
-          <div class="Card">
-           <div class="w-full bg-cover rounded-t-lg h-3/5 bg-norway"></div>
-           <div class="w-full rounded-b-lg h-2/5 bg-secondary">
+        <div class="Card">
+          <div class="w-full bg-cover rounded-t-lg h-3/5 bg-norway"></div>
+          <div class="w-full rounded-b-lg h-2/5 bg-secondary">
             <p class="px-4 py-2 text-xl text-white text-bold">Norway</p>
             <p class="px-4 text-white text-md ">Paisajes Inceibles</p>
-            </div>
           </div>
+        </div>
 
-           <div class="Card">
-           <div class="w-full bg-cover rounded-t-lg h-3/5 bg-new_york"></div>
-           <div class="w-full bg-pink-300 rounded-b-lg h-2/5">
+        <div class="Card">
+          <div class="w-full bg-cover rounded-t-lg h-3/5 bg-new_york"></div>
+          <div class="w-full bg-pink-300 rounded-b-lg h-2/5">
             <p class="px-4 py-2 text-xl text-white text-bold">New York</p>
             <p class="px-4 text-white text-md ">Paisajes Inceibles</p>
-            </div>
           </div>
-           <div class="Card">
-           <div class="w-full bg-cover rounded-t-lg h-3/5 bg-sanFrancisco"></div>
-           <div class="w-full rounded-b-lg h-2/5 bg-secondary">
+        </div>
+        <div class="Card">
+          <div class="w-full bg-cover rounded-t-lg h-3/5 bg-sanFrancisco"></div>
+          <div class="w-full rounded-b-lg h-2/5 bg-secondary">
             <p class="px-4 py-2 text-xl text-white text-bold">San Francisco</p>
             <p class="px-4 text-white text-md ">Paisajes Inceibles</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="w-full h-full px-6" id="rentas_destacadas">
+        <p class="pb-6 mt-6 text-3xl font-semibold text-primary">Rentas Destacadas</p>
+        <div class="flex flex-col items-center justify-center w-full h-full space-y-6">
+
+          <div class="w-full bg-center bg-cover rounded-lg h-96 bg-chicago">
+            <p class="CardTitle lg:text-black">Chicago</p>
+            <p class="pl-8 mr-24 text-sm text-black lg:text-lg ">2 habitaciones, baño y cocina</p>
+          </div>
+          <div class=" lg:w-full lg:h-full lg:flex lg:space-x-4">
+            <div class="w-full mb-6 bg-cover rounded-lg bg-LA lg:h-auto">
+              <p class="CardTitle">Los Angeles</p>
+              <p class="pl-8 mr-24 text-sm text-black lg:text-lg">2 habitaciones, baño y cocina</p>
             </div>
+            <div class="w-full h-full">
+              <div class="w-full mb-6 bg-cover rounded-lg h-96 bg-miami">
+                <p class="CardTitle">Miami</p>
+                <p class="pl-8 mr-24 text-sm text-black lg:text-lg">2 habitaciones, baño, cocina y piscina</p>
+              </div>
+              <div class="w-full mb-6 bg-cover rounded-lg h-96 bg-bali">
+                <p class="CardTitle">Bali</p>
+                <p class="pl-8 mr-24 text-sm text-white lg:text-lg">2 habitaciones, baño y cocina</p>
+              </div>
+            </div>
+
           </div>
-          </div>
-          
-        
-        
-      <div class="w-full h-full px-2" id="rentas_destacadas">
-      <p class="pb-6 mt-6 text-3xl font-semibold text-primary">Rentas Destacadas</p>
-      <div class= "flex flex-col items-center justify-center w-full h-full space-y-6">
-        <div class="w-full bg-cover rounded-lg h-96 bg-chicago">
-          <p class="CardTitle">Chicago</p>
-          <p class="pl-8 mr-24 text-sm text-black">2 habitaciones, baño y cocina</p>
+
         </div>
-        <div class="w-full bg-cover rounded-lg h-96 bg-miami">
-          <p class="CardTitle">Miami</p>
-          <p class="pl-8 mr-24 text-sm text-black">2 habitaciones, baño, ccocina y piscina</p>
-        </div>
-        <div class="w-full bg-cover rounded-lg h-96 bg-bali">
-          <p class="CardTitle">Bali</p>
-          <p class="pl-8 mr-24 text-sm text-black">2 habitaciones, baño y cocina</p>
-        </div>
-        </div>
-        
+        -
       </div>
       <div class="w-full h-full p-6" id="faqs">
-            <div class="flex flex-col w-full h-full space-y-4" >
-              <p class="mt-6 text-3xl font-semibold text-primary">FAQS</p>
-              <div>
-                <p class="text-xl font-medium text-primary">Política de cancelación</p>
-                <p class="pt-2 text-md">Para estancias menores a una semana es importante avisar con 3 días de
-		             anticipación, de caso contario será sancionado.</p>
-              </div>
-              <div>
-                <p class="text-xl font-medium text-primary">Métodos de pago</p>
-                <p class="pt-2 text-md">Recibimos medios de pago como tarjetas débito y crédito. Tambien aplican bonos y descuentos especiales.</p>
-              </div>
-              <div>
-                <p class="text-xl font-medium text-primary">Sitios turisticos autorizados</p>
-                <p class="pt-2 text-md">Para poder recorrer los diferentes sitios turisticos de la sona debe portar la manilla de asceso.</p>
-              </div>
-              <div>
-                <p class="text-xl font-medium text-primary">Transporte</p>
-                <p class="pt-2 text-md">Los mediso de transporte estan disponibles en recepción, recogina y llevada al aeropuerto</p>
-              </div>
-              
-            </div>
+        <div class="flex flex-col w-full h-full space-y-4">
+          <p class="mt-6 text-3xl font-semibold text-primary">FAQS</p>
+          <div>
+            <p class="text-xl font-medium text-primary">Política de cancelación</p>
+            <p class="pt-2 text-md">Para estancias menores a una semana es importante avisar con 3 días de
+              anticipación, de caso contario será sancionado.</p>
+          </div>
+          <div>
+            <p class="text-xl font-medium text-primary">Métodos de pago</p>
+            <p class="pt-2 text-md">Recibimos medios de pago como tarjetas débito y crédito. Tambien aplican bonos y
+              descuentos especiales.</p>
+          </div>
+          <div>
+            <p class="text-xl font-medium text-primary">Sitios turisticos autorizados</p>
+            <p class="pt-2 text-md">Para poder recorrer los diferentes sitios turisticos de la sona debe portar la
+              manilla de asceso.</p>
+          </div>
+          <div>
+            <p class="text-xl font-medium text-primary">Transporte</p>
+            <p class="pt-2 text-md">Los mediso de transporte estan disponibles en recepción, recogina y llevada al
+              aeropuerto</p>
+          </div>
+
+        </div>
       </div>
       <footer class="w-full h-auto p-6 space-y-2 bg-gray-50">
         <p class="text-sm text-gray-300"> Acerca de </p>
-        <p class="text-sm text-gray-300"> Inversionistas  </p>
+        <p class="text-sm text-gray-300"> Inversionistas </p>
         <p class="text-sm text-gray-300"> Empleos </p>
         <p class="text-sm text-gray-300"> Terminos y condiciones </p>
         <p class="text-sm text-gray-300"> platzi Travel, Inc</p>
 
 
-    </footer>
-  
-    </section>
-    
-       <div class="fixed bottom-0 left-0 flex items-center justify-center w-full h-16 space-x-8 shadow-md bg-slate-300"id="tab_bar ">
-         <a href="#home" class="text-gray-400 fill-current">
-           <img src="./svg/Home.svg"/>
-         </a>
-         <a href="#rentas_destacadas" class="text-gray-200 fill-current">
-           <img src="./svg/Search.svg"/>
-         </a>
-           <a href="#destacadas" class="text-gray-200 fill-current">
-           <img src="./svg/Heart.svg"/>
-         </a>
-         <button>
-            <img src="./svg/Moon.svg" class="text-gray-200 fill-current "/>
-         </button>
-         <a href="#destacadas" class="text-gray-200 fill-current">
-           <img src="./svg/User.svg"/>
-         </a>
-       </div>
-    
-  </body>
+      </footer>
+
+  </section>
+
+  <div class="fixed bottom-0 left-0 flex items-center justify-center w-full h-16 space-x-8 shadow-md bg-slate-300"
+    id="tab_bar ">
+    <a href="#home" class="text-gray-400 fill-current">
+      <img src="./svg/Home.svg" />
+    </a>
+    <a href="#rentas_destacadas" class="text-gray-200 fill-current">
+      <img src="./svg/Search.svg" />
+    </a>
+    <a href="#destacadas" class="text-gray-200 fill-current">
+      <img src="./svg/Heart.svg" />
+    </a>
+    <button>
+      <img src="./svg/Moon.svg" class="text-gray-200 fill-current " />
+    </button>
+    <a href="#destacadas" class="text-gray-200 fill-current">
+      <img src="./svg/User.svg" />
+    </a>
+  </div>
+
+</body>
+
 </html>
